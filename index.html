@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=" https://cdn.tailwindcss.com"></script>
+
+
+    <!-- encabezado-->
+</head>
+<body>
+
+</body>
+    <section class="bg-stone-800; bg-local ..." style="background-image: url(https://img.lovepik.com/background/20211021/large/lovepik-e-commerce-background-image_401316765.jpg);">
+
+        <h1 class=" text-3xl mb-4 font-bold">PERFIL PERSONAL</h1>
+
+        <div class=" grid grid-flow-col justify-stretch; "></div>
+    </section>
+
+
+
+
+    <section  class="container mx-auto;">
+    </div class="  h-56 grid grid-cols-3 gap-4">  
+
+        <div class="container mx-auto">
+            <img  class="flex-none w-40 h-40f; rounded-full"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqafzhnwwYzuOTjTlaYMeQ7hxQLy_Wq8dnQg&s" alt="">
+         
+           
+            <form id="crudForm" class="bg-white p-6 rounded ">
+            <div class="mb-4">
+                <label class="block text-gray-700" for="name">nombre</label>
+                <input class="border border-gray-300 p-2 rounded w-full" type="text" id="name">
+            </div>
+    
+            <div class="mb-4">
+                <label class="block text-gray-700"  for="lastName">Apellido</label>
+                <input class="border border-gray-300 p-2 rounded w-full" type="text" id="lastName">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700"  for="phone">Telefono</label>
+                <input  class="border border-gray-300 p-2 rounded w-full" type="text" id="phone">
+            </div>
+    
+            <div class="mb-4">
+                <label class="block text-gray-700"  for="img">Email</label>
+                <input  class="border border-gray-300 p-2 rounded w-full" type="text" id="img">
+            </div>
+           
+            <button class="bg-blue-500 text-white px-4 p-2 rounded" type="submit">Guardar</button>
+
+
+         <table class="min-w-full bg-white shadow-md rounded-lg ">
+        <thead>
+            <tr>
+                <th class="py-2 px-4 bg-gray-200">Name</th>
+                <th class="py-2 px-4 bg-gray-200">Lastname</th>
+                <th class="py-2 px-4 bg-gray-200">Phone</th>
+                <th class="py-2 px-4 bg-gray-200"> Email</th>
+            </tr>
+         </thead>
+         <tbody id="dataTable">
+            <!--Los datos iran aquí-->
+         </tbody>
+         </table>
+
+
+    </div>
+    </section>
+
+
+<!--vista de productos disponibles -->
+                    
+        <div class="self-start;  text-3xl mb-4 font-bold; bg-stone-900; bg-local ..." style= "background-image: url(https://img.freepik.com/vector-premium/diseno-plano-vectorial-premium-fondo-abstracto-azul-claro_736937-166.jpg);">
+            <h1 class="">AVIABLES PRODUCTS</h1>
+            </div>
+
+    <section  class="h-56 grid grid-cols-3 gap-4 content-around  "> <!-- seccion principal-->
+      
+        <form id="crudForm" class="bg-white p-6 rounded ">
+
+            <!-- primer producto div-->
+            <div class="mb-4">
+                <label class="block text-gray-700" for="name">Casual Clothig</label>
+                <img src="https://st3.depositphotos.com/1177973/14118/i/450/depositphotos_141182010-stock-photo-modern-casual-clothes.jpg" alt="">
+                <h1> Description: Ideal For Any Day Of The Year</h1>
+                <button class=" bg-blue-500 text-white px-4 p-2 rounded;..." type="click "> Search</button>
+            </div>
+    
+              <!-- segundo producto div-->
+            <div class="mb-4">
+                <label class="block text-gray-700"  for="lastName">Sports Clothing</label>
+                <img src="https://oss-sports.com/cdn/shop/products/FitnessSet5_480x480.jpg?v=1616679568" alt="">
+                <h1> Description: Your Best Option To Do Sports</h1>
+                <button class=" bg-blue-500 text-white px-4 p-2 rounded;..." type="click "> Search</button>
+            </div>
+
+
+              <!-- tercer producto div-->
+            <div class="mb-4">
+                <label class="block text-gray-700"  for="phone">Formal Clothig</label>
+                <img src=" https://img.chilango.com/2021/04/tiendas-de-ropa-de-vestir-1024x576.jpg" alt="">
+                <h1> Description: Ideal Clothing For Special Occasions</h1>
+                <button class=" bg-blue-500 text-white px-4 p-2 rounded;..." type="click "> Search</button>
+            </div>
+
+              <!-- cuarto producto div-->
+    
+            <div class="mb-4">
+                <label class="block text-gray-700"  for="img"> Girl Clothig</label>
+                <img src="https://s.alicdn.com/@sc04/kf/H0ef865d8ffd5476a8da9dffb24ff2f40r.jpg_300x300.jpg" alt="">
+                <h1> Description: All Kinds Of Styles For Girls</h1>
+                <button class=" bg-blue-500 text-white px-4 p-2 rounded;..." type="click "> Search</button>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700"  for="img"> Formal Shoes</label>
+                <img  class = "size-70" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9WhU0cgXByzlw6Z5WsDI4rBY7PBmFrdsMmw&s" alt="">
+                <h1> Description: Shoes For Formal Occasions</h1>
+                <button class=" bg-blue-500 text-white px-4 p-2 rounded;..." type="click "> Search</button>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700"  for="img"> Casual Shoes</label>
+                <img  class="size-65" src="https://ae01.alicdn.com/kf/S6eafab34a7b2408b82949d6410e5449bp.jpg_640x640q90.jpg"alt="">
+                <h1> Description: Shoes For Casual Occasions</h1>
+                <button class=" bg-blue-500 text-white px-4 p-2 rounded;..." type="click "> Search</button>
+            </div>
+
+        </div>
+    </section>
+
+
+                </div>
+             </section>
+   
+</body>
+</html>
